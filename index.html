@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فرم نظر سنجی</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 id="title">
+                فرم نظر سنجی FreeCodeCamp
+            </h1>
+            <p id="description">
+                از اینکه وقت می گذارید و به ما در بهبود پلتفرم کمک می کنید متشکریم.
+            </p>
+        </header>
+        <form id="survey-form">
+            <div class="form-group">
+                <label for="name" id="name-label">نام</label>
+                <input class="form-control" type="text" name="name" id="name" placeholder="نام خود را وارد کنید" required />
+            </div>
+            <div class="form-group">
+                <label for="email" id="email-label">ایمیل</label>
+                <input class="form-control" type="text" name="email" id="email" placeholder="ایمیل خود را وارد کنید" required />
+            </div>
+            <div class="form-group">
+                <label for="number" id="number-label">سن<span>(اختیاری)</span></label>
+                <input class="form-control" type="text" name="number" min="10" max="99" id="number" placeholder="سن " />
+            </div>
+            <div class="form-group">
+                <p>
+                    کدام گزینه نقش فعلی شما را بهتر توصیف می کند؟ </p>
+                <select id="dropdown" name="role" class="form-control" required>
+                    <option disabled selected value>نقش فعلی خود را انتخاب کنید</option>
+                    <option value="student">دانش آموز</option>
+                    <option value="job">شغل تمام وقت</option>
+                    <option value="learner">آموزنده تمام وقت</option>
+                    <option value="preferNo">ترجیح میدم نگم</option>
+                    <option value="other">سایر</option>
+                </select>
+                </select>
+            </div>
+            <div class="form-group">
+                <p> آیا سایت مارو به دوستانتون پیشنهاد میکنید؟</p>
+                <label>
+                    <input name="user-recommend" value="definitely" type="radio" class="input-radio" checked>
+                    قطعاً</label>
+                <label>
+                    <input name="user-recommend" value="maybe" type="radio" class="input-radio">
+                    شاید</label>
+                <label>
+                    <input name="user-recommend" value="not-sure" type="radio" class="input-radio">
+                    مطمئن نیستم</label>
+            </div>
+            <div class="form-group">
+                <p>
+                    کدام ویژگی سایت مورد پسند شماست؟ </p>
+                <select id="most-like" name="mostLike" class="form-control" required>
+                    <option disabled selected value>یک گزینه را انتخاب کنید</option>
+                    <option value="challenges">چالش ها</option>
+                    <option value="projects">پروژه ها</option>
+                    <option value="community">انجمن</option>
+                    <option value="openSource">متن باز</option>
+                </select>
+
+            </div>
+            <div class="form-group">
+                <p> دوست دارید چه چیزی بهبود یابد؟
+                <span class="check-all">(همه موارد کاربردی را بررسی کنید)</span>
+                </p>
+                <label>
+                    <input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox">
+                    پروژه های فرانت اند</label>
+                <label>
+                    <input name="prefer" value="back-end-projects" type="checkbox" class="input-checkbox">
+                    پروژه های بک اند</label>
+                <label>
+                    <input name="prefer" value="data-visualization" type="checkbox" class="input-checkbox">
+                    تجسم داده ها</label>
+                <label>
+                    <input name="prefer" value="challenges" type="checkbox" class="input-checkbox">
+                    چالش ها</label>
+                <label>
+                    <input name="prefer" value="open-source-community" type="checkbox" class="input-checkbox">
+                    انجمن های منبع باز</label>
+                <label>
+                    <input name="prefer" value="gitter-help-rooms" type="checkbox" class="input-checkbox">
+                    اتاق های کمک گیتر</label>
+                <label>
+                    <input name="prefer" value="videos" type="checkbox" class="input-checkbox">
+                    ویدیوها</label>
+                <label>
+                    <input name="prefer" value="city-meetups" type="checkbox" class="input-checkbox">
+                    دیدارهای شهری</label>
+                <label>
+                    <input name="prefer" value="wiki" type="checkbox" class="input-checkbox">
+                    ویکی</label>
+                <label>
+                    <input name="prefer" value="forum" type="checkbox" class="input-checkbox">
+                    انجمن</label>
+                <label>
+                    <input name="prefer" value="additional-courses" type="checkbox" class="input-checkbox">
+                    دوره های تکمیلی</label>
+            </div>
+            <div class="form-group">
+                <p>هرگونه نظر و پیشنهاد؟</p>
+                <textarea name="comment" id="comments" class="input-textarea"
+                    placeholder="نظر خود را اینجا بنویسید..."></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" id="submit" class="submit-button">
+                    ارسال
+                </button>
+            </div>
+        </form>
+
+    </div>
+</body>
+
+</html>

@@ -21,13 +21,13 @@ The Survey Form was built using the following technologies and tools:
 - CSS3
 
 ## Usage
-1- Clone the repository or download the ZIP file.
+1. Clone the repository or download the ZIP file.
 
-1- Open the project in your preferred code editor.
+1. Open the project in your preferred code editor.
 
-1- Launch the index.html file in your browser to explore the Survey Form.
+1. Launch the index.html file in your browser to explore the Survey Form.
 
-1- Navigate through the survey and test the form's various input fields and validation.
+1. Navigate through the survey and test the form's various input fields and validation.
 
 ## License
 The Survey Form project is available under the MIT License. Feel free to use, modify, and share this project for personal and commercial purposes.

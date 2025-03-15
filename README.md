@@ -3,7 +3,7 @@
 Welcome to the Survey Form project! This web page represents a simple survey form, and I am thrilled to share it with you. The survey form is designed to collect user feedback and data, providing valuable insights for analysis and decision-making.
 
 # Demo
-You can view the live demo of the Survey Form [here](https://aaramiss.github.io/Survey-Form/).
+You can view the live demo of the Survey Form [here](https://smircodes.github.io/Survey-Form/).
 
 ## Features
 - User-Friendly Layout: The Survey Form employs a user-friendly layout, making it easy for respondents to navigate through the survey.
